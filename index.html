@@ -8,19 +8,67 @@
     <title>Document</title>
   </head>
   <body>
-    <section id="intro">
-      <div class="container my-5" id="intro">
+    <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <img class="navbar-brand" src="/assets/logo-myaqiqah.png" width="35px" height="35px" />
+        <a class="navbar-brand fw-bold text-success text-center" href="#Home">MyAqiqah</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Paket & Harga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-success" href="">Konsultasi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- intro section -->
+    <section id="Home">
+      <div class="container my-5">
         <div class="row align-items-center justify-content-center">
           <div class="col-sm-7 col-md-6 col-lg-5">
             <img src="/assets/hero.png" alt="My Aqiqah" class="img-fluid" />
           </div>
           <div class="col-sm-5 col-md-6 text-center text-sm-end">
             <h1>
-              <div class="display-4">Jasa Aqiqah</div>
-              <div class="display-4 display-md-1 fw-bold">Terpercaya</div>
+              <div class="display-4 fw-semibold">Jasa Aqiqah</div>
+              <div class="display-4 display-md-1 fw-bolder text-success">Terpercaya</div>
             </h1>
             <p class="lead my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, animi.</p>
             <a class="btn btn-success" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product section -->
+    <section id="product">
+      <div class="container">
+        <div class="row">
+          <div class="col-7 col-sm-3 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <img class="card-image-top" src="" />
+                <h3 class="card-title fw-bold text-success">Paket Mentah</h3>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, laborum!</p>
+                <a href="" class="btn text-success">Pelajari lebih lanjut --</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-success">Start From Rp.1.000.000</small>
+              </div>
+            </div>
           </div>
         </div>
       </div>
