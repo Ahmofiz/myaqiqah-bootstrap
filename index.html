@@ -39,11 +39,11 @@
     <!-- intro section -->
     <section id="Home">
       <div class="container pt-5">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-8 col-sm-7 col-md-6 col-lg-5">
+        <div class="row align-items-center justify-content-center row-cols-1 row-cols-sm-2">
+          <div class="col">
             <img src="/assets/hero.png" alt="My Aqiqah" class="img-fluid" />
           </div>
-          <div class="col-4 col-sm-5 col-md-6 col-lg-7 text-center text-sm-end">
+          <div class="col text-center text-sm-end">
             <h1 class="mt-4">
               <div class="display-2 fw-sm-semibold">Jasa Aqiqah</div>
               <div class="display-4 display-md-1 fw-bolder text-success">Terpercaya</div>
@@ -158,7 +158,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <div class="card">
               <div class="card-body text-center">
                 <img width="64" height="64" src="https://img.icons8.com/external-outline-wichaiwi/64/external-deliver-services-business-outline-wichaiwi.png" alt="external-deliver-services-business-outline-wichaiwi" class="my-3" />
@@ -166,7 +166,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <div class="card">
               <div class="card-body text-center">
                 <img
@@ -180,7 +180,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <div class="card">
               <div class="card-body text-center">
                 <img width="64" height="64" src="https://img.icons8.com/laces/64/sheep.png" alt="sheep" class="my-3" />
@@ -304,21 +304,21 @@
     <!-- map -->
     <section id="map">
       <div class="container py-5">
-        <div class="row">
+        <div class="row row-cols-1 row-cols-sm-2 text-center">
           <div class="col">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.8598027080307!2d98.70668017425386!3d3.6195066500827537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131b11f28bff7%3A0x4eb04e2a64825784!2sMyaqiqah%20Medan!5e0!3m2!1sen!2sid!4v1699513126855!5m2!1sen!2sid"
-              width="600"
-              height="450"
               style="border: 0"
+              width="100%"
+              height="100%"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
               class="rounded border"
             ></iframe>
           </div>
-          <div class="col">
-            <h3>Kunjungi kami</h3>
+          <div class="col my-3">
+            <h3 class="fw-bold h1 text-success">Kunjungi Kami</h3>
           </div>
         </div>
       </div>
@@ -354,16 +354,44 @@
 
     <!-- footer -->
     <section id="footer">
-      <div class="container-fluid text-bg-success p-5">
-        <div class="row row-cols-md-3">
-          <div class="col">
-            <div class="brand"></div>
-            <div class="contact">
-              <a href="#" class="text-reset"><i class="bi bi-whatsapp display-4"></i></a>
+      <div class="container-fluid text-bg-success px-5 py-3 justify-content-center">
+        <div class="row row-cols-1 row-cols-md-3 my-5 justify-content-center align-items-center">
+          <div class="col mb-3 mb-sm-0">
+            <div class="brand">
+              <img src="/assets/logo-myaqiqah.png" alt="logo-myaqiqah" class="img-fluid" width="90px" height="90px" />
+              <h1 class="my-2 fw-bold">MyAqiqah</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas in consectetur dolorem, soluta quam quia esse saepe distinctio nemo est tenetur, nam consequuntur, numquam veritatis cum minus magni sed. Facilis!</p>
+          </div>
+          <div class="col mb-3 mb-sm-0">
+            <div class="col-header fw-bold display-5">Links</div>
+            <div class="links">
+              <a href="#Home" class="text-reset text-decoration-none lead">Beranda</a><br />
+              <a href="#product" class="text-reset text-decoration-none lead">Paket & Layanan</a><br />
+              <a href="#whyUs" class="text-reset text-decoration-none lead">Keunggulan Layanan</a><br />
+              <a href="#testi" class="text-reset text-decoration-none lead">Testimonial</a><br />
+              <a href="#faq" class="text-reset text-decoration-none lead">FAQ</a><br />
+              <a href="#map" class="text-reset text-decoration-none lead">Lokasi Kami</a>
             </div>
           </div>
-          <div class="col"></div>
-          <div class="col"></div>
+          <div class="col">
+            <div class="col-header fw-bold display-5">Contact</div>
+            <div class="items mb-3">
+              <h3 class="h3 fw-semibold">Whatsapp</h3>
+              <div class="contact text-start align-items-center">
+                <a href="#" class="text-reset small"><i class="bi bi-whatsapp h3"></i></a>
+                <a href="#" class="text-reset lead text-decoration-none">+62 822-7148-546</a>
+              </div>
+            </div>
+            <div class="items mb-3">
+              <h3 class="h3 fw-semibold">Instagram</h3>
+              <div class="contact text-start align-items-center">
+                <a href="#" class="text-reset small"><i class="bi bi-instagram h3"></i></a>
+                <a href="#" class="text-reset lead text-decoration-none">@myaqiqah.medan</a>
+              </div>
+            </div>
+            <small class="text-light text-opacity-50 mt-5">Website made by Luam. Made with Bootstrap v.5.3</small>
+          </div>
         </div>
       </div>
     </section>
